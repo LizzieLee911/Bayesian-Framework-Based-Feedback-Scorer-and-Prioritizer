@@ -21,6 +21,9 @@ As this model is focusing solely on feedback analysis, it’s based on 3 prerequ
 - LLMs are aware of the relationship between main categories C and subcategories S (e.g., if a piece of feedback is strongly related to C1, the LLM may respond by assigning a higher probability to S1). However, this is just an assumption :) Thus, a hierarchical model is still needed to quantify and evaluate the LLM’s competence.
 which may need to be confirmed via more rigorous approaches (But for small companies, who cares:) not my job)
 
+In addition:
+- We may still need to test optimized structures of the final model via the criterion of DIC. For example, the amount of information could be combined and multiplied into score 2.
+
 (which may need to be confirmed via more rigorous approaches. But for small companies, it's enough for a quick estimate.)
 
 **I actually considered removing the prior for C1 if the hypothesis of “As LLMs are machines mimicking human beings, it should have preferences on UI/UX/Others” is true. Say, if we’re inclined to raise UX-related feedback, LLMs should incline to categorize feedback into UX :) However, who knows. Thus, the estimation process is still divided into stages.**
