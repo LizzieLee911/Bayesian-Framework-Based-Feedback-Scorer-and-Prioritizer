@@ -4,7 +4,7 @@
 **Bayesian Framework Based Feedback Scorer and Prioritizer(BFSP)** is designed for small companies relying heavily on feedback as a key reference, scoring and prioritizing each piece of feedback by mapping it to 3 main categories and 15 subcategories via LLM, while factoring in sentiment, information entropy, and category-based costs. **In short, the model ranks feedback by priority, replacing tedious manual sorting. (e.g., Top-scoring feedback tends to involve low-cost changes, such as UI tweaks, or rich in information.)** 
 
 
-This means that employees no longer need to read through each feedback item individually or spend excessive time debating which feedback provides the most valuable input for product updates:) Instead, team members can prioritize their work by focusing on the highest-scoring feedback first.
+:arrow_right: This means that employees no longer need to read through each feedback item individually or spend excessive time debating which feedback provides the most valuable input for product updates:) Instead, team members can prioritize their work by focusing on the highest-scoring feedback first.
 
 
 The reason for choosing a Bayesian framework is its competence in dynamic updates with small datasets, while taking prior knowledge into consideration for context-based startups. BFSP simplifies traditional classifiers by leveraging LLMs' intelligence regarding conditional probability, optimizing the capacity of LLMs on capturing the correlation between main and sub categories, which is relatively hard to capture in the traditional context. Parameters and priors need to be tuned based on your feedback trends, using expectation calculations instead of sampling for efficiency.
