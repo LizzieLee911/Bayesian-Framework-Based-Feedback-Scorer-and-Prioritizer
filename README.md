@@ -7,7 +7,7 @@
 :arrow_right: This means that employees no longer need to read through each feedback item individually or spend excessive time debating which feedback provides the most valuable input for product updates:) Instead, team members can prioritize their work by focusing on the highest-scoring feedback first.
 
 
-The reason for choosing a Bayesian framework is its competence in dynamic updates with small datasets, while taking prior knowledge into consideration for context-based startups. BFSP simplifies traditional classifiers by leveraging LLMs' intelligence regarding conditional probability, optimizing the capacity of LLMs on capturing the correlation between main and sub-categories, which is relatively hard to capture in the traditional context. Parameters and priors need to be tuned based on your feedback trends, using expectation calculations instead of sampling for efficiency.
+The reason for choosing a Bayesian framework is its competence in dynamic updates with small datasets (one feedback at a time), while taking prior knowledge into consideration (partially) for context-based startups. BFSP simplifies traditional classifiers by leveraging LLMs' intelligence regarding conditional probability, optimizing the capacity of LLMs on capturing the correlation between main and sub-categories, which is relatively hard to capture in the traditional context. Parameters and priors need to be tuned based on your feedback trends, using expectation calculations instead of sampling for efficiency.
 
 # Flow Chart
 
