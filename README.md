@@ -13,6 +13,11 @@ The reason for choosing a Bayesian framework is its competence in dynamic update
 
 ![Draft](Image/Draft.png)
 
+# Code Usage
+
+Please open the only notebook, where there are simple instructions included. 
+By default, it runs without an API, but using an existing output I prepared before via my API to simulate an update on the scores.
+
 # Discussion & Future Directions
 
 - **The variation of each vector outputted by LLMs seems to rely on the example of the prompt, which is fixed partially via modifying the prompt**
