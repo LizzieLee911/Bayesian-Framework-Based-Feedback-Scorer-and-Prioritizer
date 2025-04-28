@@ -27,6 +27,10 @@ As this model is focusing solely on feedback analysis, it’s based on 3 prerequ
 - LLMs are aware of the relationship between main categories C and subcategories S (e.g., if a piece of feedback is strongly related to C1, the LLM may respond by assigning a higher probability to S1). However, this is just an assumption :) Thus, a hierarchical model is still needed to quantify and evaluate the LLM’s competence.
 which may need to be confirmed via more rigorous approaches (But for small companies, who cares:) not my job)
 
+# Personal Notes:
+Q: Why not use LLMs to rank them directly?
+A: While the LLM may evaluate [the amount of information] for each piece of feedback, other context-based factors like origin, cost, and preference on a specific sentiment is almost impossible to quantify. In addition, we may add more features which has complex, non-linear relationships with each other, thus breaking up stages is needed.
+
 ## References
 1. Cheng, FM., Wang, J., Chen, C. et al. Product design improvement method driven by online product reviews. *Sci Rep* 15, 10252 (2025). https://doi.org/10.1038/s41598-025-94422-2 
 2. Pour, A. F., & Dalton, L. A. (2019). Theory of Optimal Bayesian Feature Filtering. *ArXiv.* https://arxiv.org/abs/1909.03637
