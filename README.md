@@ -28,7 +28,9 @@ As this model is focusing solely on feedback analysis, it’s based on 3 prerequ
 which may need to be confirmed via more rigorous approaches (But for small companies, who cares:) not my job)
 
 # Personal Notes:
+
 Q: Why not use LLMs to rank them directly?
+
 A: While the LLM may evaluate [the amount of information] for each piece of feedback, other context-based factors like origin, cost, and preference on a specific sentiment is almost impossible to quantify. In addition, we may add more features which has complex, non-linear relationships with each other, thus breaking up stages is needed.
 
 ## References
